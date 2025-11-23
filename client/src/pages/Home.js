@@ -61,6 +61,22 @@ const Home = ({ setCurrentPage }) => {
             >
               View My Work
             </motion.button>
+            <motion.button 
+              className="btn secondary-btn"
+              onClick={() => setCurrentPage('signup')}
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Sign Up
+            </motion.button>
+            <motion.button 
+              className="btn secondary-btn"
+              onClick={() => setCurrentPage('signin')}
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Sign In
+            </motion.button>
           </motion.div>
         </AnimatedSection>
         
