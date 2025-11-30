@@ -118,7 +118,7 @@ body::before {
     linear-gradient(45deg, transparent 49%, rgba(0, 212, 255, 0.03) 50%, transparent 51%),
     linear-gradient(-45deg, transparent 49%, rgba(184, 41, 255, 0.03) 50%, transparent 51%);
   background-size: 60px 60px;
-  animation: grid-move 20s linear infinite;
+  /* animation: grid-move 20s linear infinite; */
   pointer-events: none;
   z-index: 1;
 }
